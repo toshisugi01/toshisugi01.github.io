@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "file:///Users/sugiyamatoshiaki/Documents/frusion/portfolio/dist/";
+/******/ 	__webpack_require__.p = "https://toshisugi01.github.io/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 4);
@@ -1007,4 +1007,4 @@ exports.default = Contact;
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.787d8178.js.map
+//# sourceMappingURL=static.08ecbca8.js.map
