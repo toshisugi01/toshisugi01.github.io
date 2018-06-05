@@ -233,15 +233,6 @@ var App = function (_React$Component) {
     value: function componentDidMount() {
       window.addEventListener('resize', this.setHeights.bind(this));
       this.setHeights();
-      var box = _reactDom2.default.findDOMNode(this.refs.router);
-      var s = document.createElement('script');
-      s.src = 'https://www.gstatic.com/firebasejs/5.0.4/firebase.js';
-      var s2 = document.createElement('script');
-      s2.type = 'text/javascript';
-      s.async = true;
-      s.innerHTML = 'firebase.initializeApp({apiKey: "AIzaSyDN_qjq04SenLCn6QV_-VLzpJdw3J_-yWQ",authDomain: "portfolio-6935e.firebaseapp.com",databaseURL: "https://portfolio-6935e.firebaseio.com",projectId: "portfolio-6935e",storageBucket: "portfolio-6935e.appspot.com",messagingSenderId: "385844611515"});';
-      box.appendChild(s);
-      box.appendChild(s2);
     }
   }, {
     key: 'componentWillUnmount',
@@ -1007,4 +998,4 @@ exports.default = Contact;
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.08ecbca8.js.map
+//# sourceMappingURL=static.50700de1.js.map
