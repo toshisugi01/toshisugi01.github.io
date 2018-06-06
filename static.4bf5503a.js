@@ -205,7 +205,7 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 
 var Wrapper = _styledComponents2.default.div.withConfig({
   displayName: 'App__Wrapper'
-})(['width:100%;']);
+})(['height:100%;width:100%;']);
 
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
@@ -539,7 +539,7 @@ var Job = _styledComponents2.default.p.withConfig({
 var sdb = (0, _styledComponents.keyframes)(['0%{transform:rotate(-45deg) translate(0,0);-webkit-transform:rotate(-45deg) translate(0,0);opacity:0;}50%{opacity:1;}100%{transform:rotate(-45deg) translate(-20px,20px);-webkit-transform:rotate(-45deg) translate(-20px,20px);opacity:0;}']);
 var Scroll = _styledComponents2.default.div.withConfig({
   displayName: 'Home__Scroll'
-})(['position:absolute;margin-top:140px;left:50%;width:24px;height:24px;margin-left:-12px;border-left:1px solid #fff;border-bottom:1px solid #fff;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:', ' 1.5s infinite;animation:', ' 1.5s infinite;box-sizing:border-box;'], sdb, sdb);
+})(['position:absolute;margin-top:70px;left:50%;width:24px;height:24px;margin-left:-12px;border-left:1px solid #fff;border-bottom:1px solid #fff;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:', ' 1.5s infinite;animation:', ' 1.5s infinite;box-sizing:border-box;'], sdb, sdb);
 
 var Home = function (_React$Component) {
   _inherits(Home, _React$Component);
@@ -1011,4 +1011,4 @@ exports.default = Contact;
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.bcaddc3a.js.map
+//# sourceMappingURL=static.4bf5503a.js.map
