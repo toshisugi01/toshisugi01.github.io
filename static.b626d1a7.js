@@ -204,7 +204,8 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 (0, _styledComponents.injectGlobal)(_templateObject);
 
 var Wrapper = _styledComponents2.default.div.withConfig({
-  displayName: 'App__Wrapper'
+  displayName: 'App__Wrapper',
+  componentId: 'sc-14cqgfn-0'
 })(['height:100%;width:100%;']);
 
 var App = function (_React$Component) {
@@ -359,7 +360,8 @@ var Position = {
 };
 
 var Menu = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({
-  displayName: 'Navi__Menu'
+  displayName: 'Navi__Menu',
+  componentId: 'fvkxb0-0'
 })(['text-decoration:none;color:white;text-transform:uppercase;border-top:1px solid transparent;border-bottom:1px solid transparent;border-left:', ';border-right:', ';display:block;padding:.5em;position:relative;-webkit-transition:all 0.4s cubic-bezier(.5,.24,0,1);transition:all 0.4s cubic-bezier(.5,.24,0,1);&:before{content:\'\';position:absolute;left:0px;bottom:0px;z-index:-1;width:', ';height:1px;background:white;box-shadow:inset 0px 0px 0px white;display:block;-webkit-transition:all 0.4s cubic-bezier(.5,.24,0,1);transition:all 0.4s cubic-bezier(.5,.24,0,1);}&:after{content:\'\';position:absolute;right:0px;top:0px;z-index:-1;width:', ';height:1px;background:white;-webkit-transition:all 0.4s cubic-bezier(.5,.24,0,1);transition:all 0.4s cubic-bezier(.5,.24,0,1);}'], function (props) {
   return props.checked ? '1px solid white' : '1px solid transparent';
 }, function (props) {
@@ -370,7 +372,8 @@ var Menu = (0, _styledComponents2.default)(_reactStatic.Link).withConfig({
   return props.checked ? '100%' : '0%';
 });
 var Nav = _styledComponents2.default.nav.withConfig({
-  displayName: 'Navi__Nav'
+  displayName: 'Navi__Nav',
+  componentId: 'fvkxb0-1'
 })(['bottom:0;width:100%;height:70px;background-color:rgba(0,0,0,0.2);position:', ';top:', ';z-index:', ';transform:', ';'], function (props) {
   return props.fixed ? 'fixed' : 'absolute';
 }, function (props) {
@@ -381,10 +384,12 @@ var Nav = _styledComponents2.default.nav.withConfig({
   return props.fixed ? 'translate3d(0, 0, 0)' : 'none';
 });
 var List = _styledComponents2.default.li.withConfig({
-  displayName: 'Navi__List'
+  displayName: 'Navi__List',
+  componentId: 'fvkxb0-2'
 })(['position:relative;']);
 var Lists = _styledComponents2.default.ul.withConfig({
-  displayName: 'Navi__Lists'
+  displayName: 'Navi__Lists',
+  componentId: 'fvkxb0-3'
 })(['display:flex;justify-content:space-around;list-style:none;padding:0;']);
 
 var Navi = function (_React$Component) {
@@ -528,17 +533,21 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var HomeBox = _styledComponents2.default.div.withConfig({
-  displayName: 'Home__HomeBox'
+  displayName: 'Home__HomeBox',
+  componentId: 'sc-1htsbma-0'
 })(['position:relative;height:100vh;width:100%;top:0;left:0;display:inline-block;text-align:center;']);
 var Name = _styledComponents2.default.h2.withConfig({
-  displayName: 'Home__Name'
+  displayName: 'Home__Name',
+  componentId: 'sc-1htsbma-1'
 })(['margin:30vh auto 0 auto;text-align:center;color:white;font-family:fantasy,serif;letter-spacing:.3em;font-size:35px;']);
 var Job = _styledComponents2.default.p.withConfig({
-  displayName: 'Home__Job'
+  displayName: 'Home__Job',
+  componentId: 'sc-1htsbma-2'
 })(['margin:1em auto 0 auto;text-align:center;color:white;font-size:24px;text-transform:uppercase;']);
 var sdb = (0, _styledComponents.keyframes)(['0%{transform:rotate(-45deg) translate(0,0);-webkit-transform:rotate(-45deg) translate(0,0);opacity:0;}50%{opacity:1;}100%{transform:rotate(-45deg) translate(-20px,20px);-webkit-transform:rotate(-45deg) translate(-20px,20px);opacity:0;}']);
 var Scroll = _styledComponents2.default.div.withConfig({
-  displayName: 'Home__Scroll'
+  displayName: 'Home__Scroll',
+  componentId: 'sc-1htsbma-3'
 })(['position:absolute;margin-top:70px;left:50%;width:24px;height:24px;margin-left:-12px;border-left:1px solid #fff;border-bottom:1px solid #fff;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:', ' 1.5s infinite;animation:', ' 1.5s infinite;box-sizing:border-box;'], sdb, sdb);
 
 var Home = function (_React$Component) {
@@ -634,31 +643,40 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 //
 
 var AboutBox = _styledComponents2.default.div.withConfig({
-  displayName: 'About__AboutBox'
+  displayName: 'About__AboutBox',
+  componentId: 'sc-1xbzcbb-0'
 })(['position:relative;min-height:100vh;width:100%;top:0;left:0;display:inline-block;text-align:center;']);
 var Name = _styledComponents2.default.div.withConfig({
-  displayName: 'About__Name'
+  displayName: 'About__Name',
+  componentId: 'sc-1xbzcbb-1'
 })(['height:50vh;width:100%;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;flex-direction:row;background-color:rgba(200,0,0,0.4);color:white;font-size:18px;font-family:fantasy,serif;letter-spacing:.3em;font-size:35px;']);
 var FlexBox = _styledComponents2.default.div.withConfig({
-  displayName: 'About__FlexBox'
+  displayName: 'About__FlexBox',
+  componentId: 'sc-1xbzcbb-2'
 })(['min-height:50vh;margin:auto;display:-webkit-flex;display:flex;-webkit-align-items:start;align-items:start;-webkit-flex-direction:row;flex-direction:row;flex-wrap:wrap-reverse;background-color:white;']);
 var Career = _styledComponents2.default.ul.withConfig({
-  displayName: 'About__Career'
+  displayName: 'About__Career',
+  componentId: 'sc-1xbzcbb-3'
 })(['min-width:300px;margin:30px;font-size:12px;text-align:left;list-style-type:none;flex:1;padding:0;']);
 var YearItem = _styledComponents2.default.li.withConfig({
-  displayName: 'About__YearItem'
+  displayName: 'About__YearItem',
+  componentId: 'sc-1xbzcbb-4'
 })(['margin-top:10px;']);
 var Year = _styledComponents2.default.span.withConfig({
-  displayName: 'About__Year'
+  displayName: 'About__Year',
+  componentId: 'sc-1xbzcbb-5'
 })(['display:inline-block;width:50px;color:navy;']);
 var Event = _styledComponents2.default.span.withConfig({
-  displayName: 'About__Event'
+  displayName: 'About__Event',
+  componentId: 'sc-1xbzcbb-6'
 })(['min-width:200px;']);
 var Introduction = _styledComponents2.default.div.withConfig({
-  displayName: 'About__Introduction'
+  displayName: 'About__Introduction',
+  componentId: 'sc-1xbzcbb-7'
 })(['min-width:400px;text-align:left;margin-left:30px;margin-bottom:50px;margin-top:30px;font-size:14px;flex:1;']);
 var Sentence = _styledComponents2.default.p.withConfig({
-  displayName: 'About__Sentence'
+  displayName: 'About__Sentence',
+  componentId: 'sc-1xbzcbb-8'
 })(['margin:0;']);
 var Header = Sentence.extend(_templateObject);
 
@@ -800,30 +818,37 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var SKILL_LIST = [{
   title: "Backend Skills",
-  values: [{ name: "Java" }, { name: "Node.js" }, { name: "C#" }, { name: "Oracle" }, { name: "DB2" }, { name: "MySQL" }, { name: "PostgreSQL" }, { name: "MariaDB" }, { name: "Windows" }, { name: "Mac" }, { name: "Linux" }, { name: "AWS" }, { name: "Salesforce" }, { name: "Jenkins" }, { name: "Vagrant" }] }, {
+  values: [{ name: "Java" }, { name: "Node.js" }, { name: "C#" }, { name: "Oracle" }, { name: "DB2" }, { name: "MySQL" }, { name: "PostgreSQL" }, { name: "MariaDB" }, { name: "Windows" }, { name: "Mac" }, { name: "Linux" }, { name: "AWS" }, { name: "Salesforce" }, { name: "Jenkins" }, { name: "Vagrant" }, { name: "Docker" }] }, {
   title: "Frontend Skills",
-  values: [{ name: "HTML / CSS" }, { name: "Javascript" }, { name: "jQuery" }, { name: "Angular" }, { name: "TypeScript" }, { name: "React" }, { name: "Cordova" }] }];
+  values: [{ name: "HTML / CSS" }, { name: "Javascript" }, { name: "jQuery" }, { name: "Angular" }, { name: "TypeScript" }, { name: "React" }, { name: "Vue" }, { name: "Cordova" }] }];
 
 var SkillsBox = _styledComponents2.default.div.withConfig({
-  displayName: 'Skills__SkillsBox'
+  displayName: 'Skills__SkillsBox',
+  componentId: 'imhlux-0'
 })(['position:relative;min-height:100vh;width:100%;top:0;left:0;display:inline-block;text-align:center;']);
 var Name = _styledComponents2.default.div.withConfig({
-  displayName: 'Skills__Name'
+  displayName: 'Skills__Name',
+  componentId: 'imhlux-1'
 })(['height:50vh;width:100%;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;flex-direction:row;background-color:rgba(238,255,7,0.4);color:white;font-size:18px;font-family:fantasy,serif;letter-spacing:.3em;font-size:35px;']);
 var FlexBox = _styledComponents2.default.div.withConfig({
-  displayName: 'Skills__FlexBox'
+  displayName: 'Skills__FlexBox',
+  componentId: 'imhlux-2'
 })(['margin:auto;display:-webkit-flex;display:flex;-webkit-align-items:start;align-items:start;-webkit-flex-flow:row wrap;flex-flow:row wrap;-webkit-justify-content:center;justify-content:center;background-color:white;']);
 var SkillsContents = _styledComponents2.default.div.withConfig({
-  displayName: 'Skills__SkillsContents'
+  displayName: 'Skills__SkillsContents',
+  componentId: 'imhlux-3'
 })(['min-width:300px;margin:1em auto;padding:0.5em 1em;border:solid 3px #95ccff;border-radius:8px;background-color:white;']);
 var SkillTitle = _styledComponents2.default.span.withConfig({
-  displayName: 'Skills__SkillTitle'
+  displayName: 'Skills__SkillTitle',
+  componentId: 'imhlux-4'
 })(['top:-13px;left:10px;padding:0 9px;line-height:1;background:#FFF;color:#95ccff;font-weight:bold;']);
 var SkillItems = _styledComponents2.default.ul.withConfig({
-  displayName: 'Skills__SkillItems'
+  displayName: 'Skills__SkillItems',
+  componentId: 'imhlux-5'
 })(['list-style-type:none;min-width:160px;']);
 var SkillItem = _styledComponents2.default.li.withConfig({
-  displayName: 'Skills__SkillItem'
+  displayName: 'Skills__SkillItem',
+  componentId: 'imhlux-6'
 })(['margin-left:30px;font-size:13px;text-align:left;']);
 
 var Skills = function (_React$Component) {
@@ -918,23 +943,28 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Texts = ["If you are interested in me,", "please feel free to contact me."];
 
 var ContactBox = _styledComponents2.default.div.withConfig({
-  displayName: 'Contact__ContactBox'
+  displayName: 'Contact__ContactBox',
+  componentId: 'o1e3y8-0'
 })(['position:relative;min-height:50vh;width:100%;top:0;left:0;display:inline-block;text-align:center;']);
 var Name = _styledComponents2.default.div.withConfig({
-  displayName: 'Contact__Name'
+  displayName: 'Contact__Name',
+  componentId: 'o1e3y8-1'
 })(['height:50vh;width:100%;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;flex-direction:row;background-color:rgba(255,105,0,0.4);color:white;font-size:18px;font-family:fantasy,serif;letter-spacing:.3em;font-size:35px;']);
 var Sentence = _styledComponents2.default.p.withConfig({
-  displayName: 'Contact__Sentence'
+  displayName: 'Contact__Sentence',
+  componentId: 'o1e3y8-2'
 })(['padding-top:', ';margin-top:', ';'], function (props) {
   return props.isFirst ? "50px" : 0;
 }, function (props) {
   return props.isFirst ? 0 : "16px";
 });
 var MailButton = _styledComponents2.default.a.withConfig({
-  displayName: 'Contact__MailButton'
+  displayName: 'Contact__MailButton',
+  componentId: 'o1e3y8-3'
 })(['border-radius:4px;display:inline-block;margin-top:30px;width:200px;height:54px;text-decoration:none;line-height:54px;outline:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all .3s;transition:all .3s;background-color:#333;color:#fff;border:1px solid black;cursor:pointer;&:before,&:after{position:absolute;z-index:-1;display:block;content:\'\';}&:hover{background-color:white;color:black;}']);
 var Mail = _styledComponents2.default.span.withConfig({
-  displayName: 'Contact__Mail'
+  displayName: 'Contact__Mail',
+  componentId: 'o1e3y8-4'
 })(['border-radius:3px;display:inline-block;position:relative;width:20px;height:16px;margin:0 10px 0 0;padding:0;background:', ';-webkit-transition:all .3s;transition:all .3s;&:before{display:block;content:"";position:absolute;top:0;left:0;width:0;height:0;border:10px solid transparent;border-top-color:', ';-webkit-transition:all .3s;transition:all .3s;}&:after{display:block;content:"";position:absolute;top:0;left:0;width:0;height:0;left:2px;border:8px solid transparent;border-top-color:', ';-webkit-transition:all .3s;transition:all .3s;}'], function (props) {
   return props.hover ? 'black' : 'white';
 }, function (props) {
@@ -943,7 +973,8 @@ var Mail = _styledComponents2.default.span.withConfig({
   return props.hover ? 'black' : 'white';
 });
 var Box = _styledComponents2.default.div.withConfig({
-  displayName: 'Contact__Box'
+  displayName: 'Contact__Box',
+  componentId: 'o1e3y8-5'
 })(['background-color:white;height:50vh;']);
 
 var Contact = function (_React$Component) {
@@ -1011,4 +1042,4 @@ exports.default = Contact;
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.4bf5503a.js.map
+//# sourceMappingURL=static.b626d1a7.js.map
